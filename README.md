@@ -35,6 +35,10 @@ gh repo clone Elkhaberi/wordpress-docker-compose
 ```
 
 ```sh
+cd wordpress-docker-compose/
+```
+
+```sh
 docker-compose up -d
 ```
 
@@ -42,6 +46,10 @@ docker-compose up -d
 docker-compose ps
 ```
 
+Open in Browser:
+```
+http://127.0.0.1/
+```
 ## More Details
 
 [reference](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose)
