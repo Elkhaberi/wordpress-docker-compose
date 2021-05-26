@@ -30,15 +30,15 @@ WordPress Platform deployed on docker.
 
 #### 1. Build Docker image
 
-```
-cd wordpress-docker-compose/
+```sh
+gh repo clone Elkhaberi/wordpress-docker-compose
 ```
 
-```
+```sh
 docker-compose up -d
 ```
 
-```
+```sh
 docker-compose ps
 ```
 
